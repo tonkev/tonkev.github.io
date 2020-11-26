@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Dejavu Sans, sans-serif;
+}
+
+img {
+    margin-bottom: 5px;
+}
+
+tag {
+    background-color: #A7ABDD;
+    padding: 2px;
+    border-radius: 2px;
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+body {
+    background-color: #81717A;
+    color: ghostwhite;
+}
+
+#intro, #gamejam, #practice {
+    background-color: #9D8CA1;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.list {
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.game {
+    background-color: #9993B2;
+    border-radius: 25px;
+    padding: 20px;
+    width: 30%;
+    min-width: 300px;
+}
+
+.desc {
+    margin-top: 5px;
+}
+
+.colspacer {
+    width: 5px;
+}
+
+.rowspacer {
+    height: 5px;
+}
+
+.game img {
+    max-width:100%;
+    max-height:100%;
+}
