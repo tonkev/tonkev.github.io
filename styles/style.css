@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: Dejavu Sans, sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 img {
@@ -21,7 +21,11 @@ body {
     color: ghostwhite;
 }
 
-#intro, #gamejam, #practice {
+#intro{
+    padding: 20px;
+}
+
+#gamejam, #practice {
     background-color: #9D8CA1;
     border-radius: 25px;
     padding: 20px;
