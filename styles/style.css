@@ -63,3 +63,9 @@ body {
     max-width:100%;
     max-height:100%;
 }
+
+.icon {
+    width: 7mm;
+    height: 7mm;
+    margin: 3px;
+}
