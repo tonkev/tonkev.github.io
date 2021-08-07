@@ -11,9 +11,11 @@ img {
 tag {
     background-color: #A7ABDD;
     padding: 2px;
-    border-radius: 2px;
+    border-radius: 4px;
     color: darkslateblue;
     font-weight: bold;
+		white-space: nowrap;
+		line-height: 7mm;
 }
 
 body {
@@ -21,12 +23,16 @@ body {
     color: ghostwhite;
 }
 
-#intro{
+#intro {
     padding: 20px;
 }
 
-#practice, #university{
-    width: 49.5%;
+#me {
+		text-align: center;
+    min-width: 50mm;
+    max-width: 200mm;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 #gamejam, #practice, #university {
@@ -36,19 +42,28 @@ body {
 }
 
 .list {
-    flex-wrap: wrap;
-    flex-flow: wrap;
     justify-content: space-evenly;
-    display: flex;
 }
 
 .game {
     background-color: #9993B2;
     border-radius: 25px;
     padding: 20px;
-    width: 75mm;
     min-width: 50mm;
-    max-width: 49%;
+    max-width: 200mm;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5mm;
+		display: flex;
+}
+
+.brief {
+  flex: 30%;
+}
+
+.detail {
+  flex: 70%;
+	padding: 20px;
 }
 
 .desc {
@@ -67,6 +82,7 @@ body {
 .game img {
     max-width:100%;
     max-height:100%;
+		margin:3%;
 }
 
 .icon {
